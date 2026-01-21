@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Детский сад «ЖАНИБЕК» — Актобе</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:Poppins, sans-serif; background:#F7FAFC; color:#2D3748; }
+    header { background:#2F855A; color:white; padding:20px; }
+    nav { display:flex; justify-content:space-between; align-items:center; }
+    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:600; }
+    .hero { padding:60px 20px; text-align:center; }
+    .hero h1 { font-size:36px; margin-bottom:10px; }
+    .hero p { font-size:18px; }
+    .buttons a {
+      display:inline-block;
+      margin:10px;
+      padding:15px 25px;
+      background:#F6AD55;
+      color:black;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:600;
+    }
+    section { padding:40px 20px; max-width:1100px; margin:auto; }
+    .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { background:white; padding:20px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.05); }
+    footer { background:#2F855A; color:white; text-align:center; padding:20px; }
+    .lang { font-size:14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div><strong>ЖАНИБЕК</strong></div>
+    <div>
+      <a href="index.html">Главная</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="reviews.html">Отзывы</a>
+      <a href="enroll.html">Записать ребёнка</a>
+      <a href="contacts.html">Контакты</a>
+      <span class="lang">
+        <a href="index.html">RU</a> | <a href="index-kz.html">KZ</a>
+      </span>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Детский сад «ЖАНИБЕК»</h1>
+  <p>Забота, безопасность и развитие детей в Актобе</p>
+  <div class="buttons">
+    <a href="https://wa.me/77478408437">WhatsApp 1</a>
+    <a href="https://wa.me/77055398040">WhatsApp 2</a>
+    <a href="https://www.instagram.com/zhanibek_bobekzhai_aqtobe">Instagram</a>
+  </div>
+</div>
+
+<section>
+  <h2>Почему выбирают нас</h2>
+  <div class="features">
+    <div class="card">👶 Индивидуальный подход к каждому ребёнку</div>
+    <div class="card">🛡 Безопасная и тёплая атмосфера</div>
+    <div class="card">🍎 Сбалансированное питание</div>
+    <div class="card">🎨 Развивающие занятия каждый день</div>
+  </div>
+</section>
+
+<footer>
+  © Детский сад «ЖАНИБЕК», Актобе
+</footer>
+
+</body>
+</html>
